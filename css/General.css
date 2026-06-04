@@ -125,7 +125,7 @@ body{
 .directory h4{font-weight:600;}
 .directory h6{margin-top:3px;}
 .directory p{margin-top:4px;font-size:14px;}
-.directory div{margin-top:30px;width:100%;}
+.directory div{margin-bottom:30px;width:100%;}
 .directory a:link{text-decoration:none;}
 .article p{margin-top:12px;}
 .tpa a{margin-top:20px;display:block;}
