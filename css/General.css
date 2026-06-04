@@ -43,7 +43,7 @@ body{
 	margin-left: 80px;
 	margin-top: 14px;
 	text-align: start;}
-.navfrag {font-size:14px;margin-top:20px;margin-bottom:80px;}
+.navfrag {font-size:14px;margin-top:0px;margin-bottom:0px;}
 .navfrag a{float:left;margin-right:20px;}
 .navfrag a:link { text-decoration:none;}
 #logo{
