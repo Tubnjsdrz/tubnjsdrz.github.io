@@ -12,20 +12,24 @@
 
 <body>
 	
-	<div class="navtop">
-		<a id="logo" href="/index.html">RitchFisher's Homepage</a>
-		<a href="/thoughts.html">笔记</a>
-		<a href="/things_i_like.html">推介</a>
-		<a href="/works.html">作品</a>
-		<a href="/tpa.html">/tpa ...</a>
-	</div>	
-<div class="navside">
-		<a href="/thoughts/fragments.html">碎片</a>
-  <a href="/thoughts/articles.html">随笔</a>
+	<div id="navtop"></div>
+	<script>
+        fetch('/navtop.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navtop').innerHTML = data;
+            });
+    </script>
+	
+	<div class="navside">
+		<a href=""></a>
+  		<a href=""></a>
 	</div>
+	
 	<div class="column">
-		<h2>笔记</h2>
-	</div>	
+		<h2>&nbsp;</h2>
+	</div>
+
 <div class="blanktop"></div>	
 <div class="content article">
   <h3>高中校园寓言两则</h3>
